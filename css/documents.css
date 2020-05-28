@@ -1,0 +1,32 @@
+#documents-title {
+	margin: 15px 0 0 15px;
+	color: #ff0;
+	font-style: italic;
+}
+
+#documents, #notice{
+	margin: 15px 5px 15px 5px;
+	//border: 1px solid #fff; 
+	width: 49%;
+	float: left;
+	color: #fff;
+	padding: 10px;
+	font-size: 18px;
+}
+
+#documents, #notice span{
+	text-align: center;
+	font-style: italic;
+}
+
+ol{
+	float: left;
+	color: #fff;
+	padding: 10px;
+	text-align: left;
+	font-style: normal;
+	margin-left: 30px;
+}
+li a{
+	color: #0f0;
+}

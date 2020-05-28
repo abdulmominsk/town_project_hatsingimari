@@ -1,0 +1,88 @@
+
+.facilities-image-tile{
+	height: 300px;
+	width: 24%;
+	border-radius: 10px;
+	margin-left: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	position: relative;
+	border: 2px solid #3F0C1F;
+	overflow: hidden;
+	float: left;
+}
+
+.facilities-image-tile:hover {
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+.facilities-image-tile span{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.4em;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	opacity: 0.6;
+}
+
+#facilities-gym{
+	background: url(../images/facilities/gym1.jpg) no-repeat;
+	background-position: center;
+}
+#facilities-indoor-stadium{
+	background: url(../images/facilities/indoor1.jpg) no-repeat;
+	background-position: center;
+}
+#facilities-town-club{
+	background: url(../images/facilities/club1.jpg) no-repeat;
+	background-position: center;
+}
+#facilities-playground{
+	background: url(../images/facilities/field1.jpg) no-repeat;
+	background-position: center;
+}
+#facilities-schools{
+	background: url(../images/facilities/school1.jpg) no-repeat;
+	background-position: center;
+}
+#facilities-colleges{
+	background: url(../images/facilities/clg1.jpg) no-repeat;
+	background-position: center;
+}
+#facilities-district-library{
+	background: url(../images/facilities/library1.jpg) no-repeat;
+	background-position: center;
+}
+#facilities-market{
+	background: url(../images/facilities/market1.jpg) no-repeat;
+	background-position: center;
+}
+
+
+#gym-description, #indoor-stadium-description, #town-club-description, #playground-description, #schools-description, #colleges-description, #district-library-description, #market-description{
+	clear: both;
+	margin:0px 15px 15px 15px;
+	color: #fff;
+}
+
+div span h2{
+	color: yellow;
+}
+
+.description-image{
+	width: 40%;
+	height: 350px;
+	margin: 10px;
+	border: 1px solid #fff;
+	border-radius: 12px;
+	overflow: hidden;
+	float: left;
+}
+.description-text{
+	padding: 10px;
+	font-size: 18px;
+}

@@ -1,0 +1,35 @@
+#txt {
+	margin: 15px 0 0 15px;
+	color: #ff0;
+	font-style: italic;
+}
+
+
+.gallary-image-tile{
+	height: 300px;
+	width: 32.3%;
+	border-radius: 10px;
+	margin-left: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	position: relative;
+	border: 2px solid #fff;
+	overflow: hidden;
+	float: left;
+}
+
+.gallary-image-tile:hover {
+	box-shadow: 0 1px 5px 1px #fff;
+}
+
+.gallary-image-tile span{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 1.4em;
+	background-color: #000;
+	color: #fff;
+	opacity: 0.4;
+}

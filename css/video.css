@@ -1,0 +1,42 @@
+.video-container{
+	margin: 15px 20px;
+	clear: both;
+	float: left;
+	width: 100%;
+}
+
+.video-tile{
+	height:450px;
+	width: 60%;
+	border: 1px solid black;
+	float: left;
+	margin: 15px 25px;
+	border-radius: 12px;
+	overflow: hidden;
+
+}
+.video-container span{
+	color: yellow;
+	font-style: italic; 
+}
+
+.video-description{
+	color: #fff;
+	padding: 10px;
+	margin-bottom: 30px;
+	font-size: 18px;
+}
+
+#tile2{
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+
