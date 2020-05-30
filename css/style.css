@@ -16,16 +16,25 @@ body{
 	background-color: #f6b319;
 
 }
+
 a{
 	text-decoration: none;
 	color: aqua;
 }
+
 #header-nav span{
 	float: left;
 	color: white;
 	font-weight: bolder; 
 	margin: 10px 15px 5px 15px;
 	padding: 2px;
+	transition: all 0.3s ease;
+}
+
+#header-nav span:hover{
+	transform: scale(1.3,1.3);
+	transition: all 0.3s ease;
+	color: blue;
 }
 
 #jumbotron{
@@ -45,10 +54,21 @@ a{
 	color: #fff;
 	top: 100px;
 	left: 50px;
+	transition: all 2s ease;
 }
 #main-title h2{
 	color: yellow;
 	font-style: italic;
+}
+
+#main-title:hover{
+	transform: matrix(1.5, 0, 0, 1.5, 100, 0);
+	transition: all 2s ease;
+}
+
+#main-title:hover div{
+	transform: rotate(1080deg);
+	transition: all 2s ease;
 }
 
 .container-tile{
@@ -67,9 +87,14 @@ a{
 	float: left;
 }
 
-.title-tile:hover {
-	font-size: 1.2em;
-	transition: 0.5s;
+.title-tile li:hover{
+	transform: scale(1.3,1.3);
+	transition: all 0.5s ease;
+	margin-left: 5px;
+}
+
+.title-tile li{
+	transition: all 0.5s ease;
 }
 
 .title-tile span {
@@ -83,6 +108,8 @@ a{
 	font-style: italic;
 	font-weight: bolder;
 }
+
+
 
 #gym-tile, #indoor-tile, #club-tile, 
 #attr1-tile, #attr2-tile, #attr3-tile {
@@ -284,6 +311,12 @@ footer{
 	text-decoration: none;
 }
 
+#footer-tile2 a:hover{
+	font-weight: bolder;
+	text-decoration: underline;
+	color: #fff;
+}
+
 #footer-copyright{
 	clear: both;
 	position: absolute;
@@ -305,11 +338,18 @@ footer{
 	overflow: hidden;
 	background: url(../images/profile.jpg) no-repeat;
 	background-position: center;
+	transition: all 2s ease;
 }
 
 #profile-image:hover {
 	box-shadow: 0px 1px 5px 5px black;
 }
+
+#profile-image:hover {
+	transform: rotate(360deg);
+	transition: all 2s ease;
+}
+
 #profile-image span {
 	position: absolute;
 	bottom: 0;
